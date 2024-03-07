@@ -7,7 +7,7 @@ let package = Package(
         .library(name: "SimpleFileLogger", targets: ["SimpleFileLogger"])
     ],
     dependencies: [
-        .package(url: "https://github.com/vapor/vapor.git", from: "3.0.0")
+        .package(url: "https://github.com/vapor/vapor.git", from: "4.57.0")
     ],
     targets: [
         .target(name: "SimpleFileLogger", dependencies: ["Vapor"])
